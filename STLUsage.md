@@ -31,6 +31,11 @@ for (auto p : mp) {
 ```
 vector<int> dp(n+1,0);
 n+1代表的是长度，后面那个0代表的是值
+初始化二维数组：
+vector<vector<int>> vec(3, vector<int>(4, 0)) 创建3行4列全0矩阵
+只初始化行数，不初始化列数
+vector<vector<int>> vec(3, vector<int>());  // 显式初始化空子vector
+
 ```
 
 #### 找最大值
