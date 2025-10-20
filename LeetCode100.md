@@ -50,3 +50,6 @@ int majorityElement(vector<int>& nums) {
 
 ```
 
+### 3、背包问题与BFS的问题比较
+
+部分背包问题可以使用BFS解决，但是BFS的效率没有DP效率高
