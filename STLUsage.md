@@ -44,3 +44,18 @@ vector<vector<int>> vec(3, vector<int>());  // 显式初始化空子vector
  int maxVal = *max_element(nums.begin(), nums.end());
 ```
 
+## unordered_set哈希集
+
+### 初始化
+
+```
+unordered_set<string> fruits = {"apple", "banana", "orange"};
+也和unordered_map差不多，只不过没有key，value，他能快速找到set中是否存在该元素
+```
+
+### 检查set中是否存在该元素
+
+```
+fruits.count()
+```
+
