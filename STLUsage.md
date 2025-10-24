@@ -59,3 +59,17 @@ unordered_set<string> fruits = {"apple", "banana", "orange"};
 fruits.count()
 ```
 
+### queue队列
+
+#### 初始化
+
+```
+queue<type> name;
+```
+
+#### 经典用法
+
+```
+
+```
+
